@@ -10,11 +10,11 @@ Calculating a maximum temporal matching is NP-hard, we introduce a way to comput
 
 ### An example of a link-stream
 
-![alt image_chat_local](/simple-link-stream-example.png)
+![alt simple-link-stream-example-txt](/simple-link-stream-example.png)
 
 Here is a more fancy representation of these link-streams
 
-![alt image_chat_local](/example_link_stream_image.png)
+![alt simple-link-stream-example-img](simple-link-stream-horizontal-image.png)
 
                      
 
