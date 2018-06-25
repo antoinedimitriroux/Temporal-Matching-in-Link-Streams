@@ -14,7 +14,7 @@ Calculating a maximum temporal matching is NP-hard, we introduce a way to comput
 
 Here is a more fancy representation of these link-streams
 
-![alt simple-link-stream-example-img](simple-link-stream-horizontal-image.png)
+![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
 
                      
 
