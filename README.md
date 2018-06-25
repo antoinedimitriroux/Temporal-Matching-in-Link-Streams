@@ -1,4 +1,4 @@
-# Temporal-Matching on link streams
+# Temporal-Matching in link-streams
 
 ## What is it about?
 
@@ -9,11 +9,8 @@ The maximum temporal matching of a γ-link-stream is a maximum sized subset of i
 Calculating a maximum temporal matching is NP-hard, we introduce a way to compute a 2-approx with a greedy algorithm, and to compute a quadratic kernel in polynomial time.
 
 ### An example of a link-stream
-
 ![alt simple-link-stream-example-txt](/simple-link-stream-example.png)
-
 Here is a more fancy representation of these link-streams
-
 ![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
 
                      
