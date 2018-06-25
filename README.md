@@ -8,6 +8,9 @@ Given an integer γ and a link-stream L, the γ-link-stream of L is the set of t
 The maximum temporal matching of a γ-link-stream is a maximum sized subset of its γ-edges, such that there is no pair of y-edges that "overlap".
 Computing a maximum temporal matching is NP-hard, we introduce a way to compute a 2-approximation with a greedy algorithm, and to compute a quadratic kernel in polynomial time.
 
+We developped a javascript application to generate different link-streams based on the rollernet experiment, and to calculate the 2-approximation and the kernel. It is accessible here:
+**Antoine Roux** - *Rollernet-like-Tools* - [Rollernet-like-Tools](https://antoinedimitriroux.github.io/).
+
 ### An example of a link-stream
 ![alt simple-link-stream-example-txt](/simple-link-stream-example.png)
 Here is a more fancy representation of these link-streams
@@ -34,7 +37,6 @@ We have two ways to do so:
 -   since the kernel size depends on K, the 2-approximation size, we can compute different 2-approximations, and chose the smallest one.
 -   once we have computed a 2-approximation A, we have to chose (2K-1) γ-edges in γL for each γ-edge in A. Since some γ-edges in A can "share" overlapping γ-edges in γL, we can chose cleverly these (2K-1) γ-edges such that the union of all these (2K-1) is the smallest.
 
-**Antoine Roux** - *Rollernet-like-Tools* - [Rollernet-like-Tools](https://antoinedimitriroux.github.io/)
 
 ## Section 2
 
