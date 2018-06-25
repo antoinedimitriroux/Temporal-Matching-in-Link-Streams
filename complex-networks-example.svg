@@ -1,0 +1,230 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1258" height="280" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="myClip"><rect x="58" y="0" width="3408" height="280"/></clipPath>
+</defs>
+<g font-size="30" text-anchor="end">
+<text x="50" y="28">a</text>
+<text x="50" y="88">b</text>
+<text x="50" y="148">c</text>
+<text x="50" y="208">d</text>
+<text x="50" y="268">e</text>
+</g>
+<g clip-path="url(#myClip)">
+<g>
+<animateTransform attributeName="transform" attributeType="XML" type="translate" from="0" to="-2150" begin="0" dur="35s" fill="freeze" repeatCount="indefinite"/>
+<g stroke="grey" fill="transparent" stroke-width="2" stroke-dasharray="3,5">
+<line x1="58" y1="20" x2="3408" y2="20"/>
+<line x1="58" y1="80" x2="3408" y2="80"/>
+<line x1="58" y1="140" x2="3408" y2="140"/>
+<line x1="58" y1="200" x2="3408" y2="200"/>
+<line x1="58" y1="260" x2="3408" y2="260"/>
+</g>
+<g stroke="black" fill="transparent" fill-opacity="0" stroke-width="3">
+<path d="M458 20 Q 498 80 458 140"/>
+<path d="M2608 20 Q 2648 80 2608 140"/>
+<path d="M808 20 Q 768 80 808 140"/>
+<path d="M2958 20 Q 2918 80 2958 140"/>
+<line x1="258" y1="80" x2="258" y2="140"/>
+<line x1="2408" y1="80" x2="2408" y2="140"/>
+<line x1="358" y1="80" x2="358" y2="140"/>
+<line x1="2508" y1="80" x2="2508" y2="140"/>
+<line x1="858" y1="80" x2="858" y2="140"/>
+<line x1="3008" y1="80" x2="3008" y2="140"/>
+<line x1="958" y1="80" x2="958" y2="140"/>
+<line x1="3108" y1="80" x2="3108" y2="140"/>
+<line x1="1258" y1="80" x2="1258" y2="140"/>
+<line x1="3408" y1="80" x2="3408" y2="140"/>
+<line x1="1358" y1="80" x2="1358" y2="140"/>
+<line x1="2068" y1="80" x2="2068" y2="140"/>
+<line x1="2098" y1="80" x2="2098" y2="140"/>
+<line x1="2118" y1="80" x2="2118" y2="140"/>
+<line x1="2148" y1="80" x2="2148" y2="140"/>
+<line x1="2168" y1="80" x2="2168" y2="140"/>
+<line x1="2188" y1="80" x2="2188" y2="140"/>
+<line x1="2208" y1="80" x2="2208" y2="140"/>
+<line x1="108" y1="200" x2="108" y2="260"/>
+<line x1="2258" y1="200" x2="2258" y2="260"/>
+<line x1="558" y1="200" x2="558" y2="260"/>
+<line x1="2708" y1="200" x2="2708" y2="260"/>
+<line x1="758" y1="200" x2="758" y2="260"/>
+<line x1="2908" y1="200" x2="2908" y2="260"/>
+<line x1="1658" y1="200" x2="1658" y2="260"/>
+<line x1="1208" y1="200" x2="1208" y2="260"/>
+<line x1="3358" y1="200" x2="3358" y2="260"/>
+<line x1="1958" y1="200" x2="1958" y2="260"/>
+<line x1="2108" y1="200" x2="2108" y2="260"/>
+<path d="M658 140 Q 698 200 658 260"/>
+<path d="M2808 140 Q 2848 200 2808 260"/>
+<path d="M1058 140 Q 1018 200 1058 260"/>
+<path d="M3208 140 Q 3168 200 3208 260"/>
+<path d="M858 20 Q 918 110 858 200"/>
+<path d="M3008 20 Q 3068 110 3008 200"/>
+<line x1="158" y1="20" x2="158" y2="80"/>
+<line x1="2308" y1="20" x2="2308" y2="80"/>
+<line x1="408" y1="20" x2="408" y2="80"/>
+<line x1="2558" y1="20" x2="2558" y2="80"/>
+<line x1="608" y1="20" x2="608" y2="80"/>
+<line x1="2758" y1="20" x2="2758" y2="80"/>
+<line x1="758" y1="20" x2="758" y2="80"/>
+<line x1="2908" y1="20" x2="2908" y2="80"/>
+<line x1="1208" y1="20" x2="1208" y2="80"/>
+<line x1="3358" y1="20" x2="3358" y2="80"/>
+<line x1="1608" y1="20" x2="1608" y2="80"/>
+<line x1="1658" y1="20" x2="1658" y2="80"/>
+<line x1="1708" y1="20" x2="1708" y2="80"/>
+<line x1="1758" y1="20" x2="1758" y2="80"/>
+<line x1="758" y1="20" x2="758" y2="80"/>
+<line x1="2908" y1="20" x2="2908" y2="80"/>
+<line x1="2008" y1="20" x2="2008" y2="80"/>
+<path d="M1108 80 Q 1168 170 1108 260"/>
+<path d="M3258 80 Q 3318 170 3258 260"/>
+<line x1="158" y1="140" x2="158" y2="200"/>
+<line x1="2308" y1="140" x2="2308" y2="200"/>
+<line x1="608" y1="140" x2="608" y2="200"/>
+<line x1="2758" y1="140" x2="2758" y2="200"/>
+<line x1="1608" y1="140" x2="1608" y2="200"/>
+<line x1="1708" y1="140" x2="1708" y2="200"/>
+<line x1="1808" y1="140" x2="1808" y2="200"/>
+<path d="M1508 80 Q 1548 140 1508 200"/>
+<path d="M1908 80 Q 1948 140 1908 200"/>
+</g>
+<g stroke="black" fill="white" stroke-width="2">
+<circle cx="458" cy="20" r="6.0"/>
+<circle cx="458" cy="140" r="6.0"/>
+<circle cx="2608" cy="20" r="6.0"/>
+<circle cx="2608" cy="140" r="6.0"/>
+<circle cx="808" cy="20" r="6.0"/>
+<circle cx="808" cy="140" r="6.0"/>
+<circle cx="2958" cy="20" r="6.0"/>
+<circle cx="2958" cy="140" r="6.0"/>
+<circle cx="258" cy="80" r="6.0"/>
+<circle cx="258" cy="140" r="6.0"/>
+<circle cx="2408" cy="80" r="6.0"/>
+<circle cx="2408" cy="140" r="6.0"/>
+<circle cx="358" cy="80" r="6.0"/>
+<circle cx="358" cy="140" r="6.0"/>
+<circle cx="2508" cy="80" r="6.0"/>
+<circle cx="2508" cy="140" r="6.0"/>
+<circle cx="858" cy="80" r="6.0"/>
+<circle cx="858" cy="140" r="6.0"/>
+<circle cx="3008" cy="80" r="6.0"/>
+<circle cx="3008" cy="140" r="6.0"/>
+<circle cx="958" cy="80" r="6.0"/>
+<circle cx="958" cy="140" r="6.0"/>
+<circle cx="3108" cy="80" r="6.0"/>
+<circle cx="3108" cy="140" r="6.0"/>
+<circle cx="1258" cy="80" r="6.0"/>
+<circle cx="1258" cy="140" r="6.0"/>
+<circle cx="3408" cy="80" r="6.0"/>
+<circle cx="3408" cy="140" r="6.0"/>
+<circle cx="1358" cy="80" r="6.0"/>
+<circle cx="1358" cy="140" r="6.0"/>
+<circle cx="2068" cy="80" r="6.0"/>
+<circle cx="2068" cy="140" r="6.0"/>
+<circle cx="2098" cy="80" r="6.0"/>
+<circle cx="2098" cy="140" r="6.0"/>
+<circle cx="2118" cy="80" r="6.0"/>
+<circle cx="2118" cy="140" r="6.0"/>
+<circle cx="2148" cy="80" r="6.0"/>
+<circle cx="2148" cy="140" r="6.0"/>
+<circle cx="2168" cy="80" r="6.0"/>
+<circle cx="2168" cy="140" r="6.0"/>
+<circle cx="2188" cy="80" r="6.0"/>
+<circle cx="2188" cy="140" r="6.0"/>
+<circle cx="2208" cy="80" r="6.0"/>
+<circle cx="2208" cy="140" r="6.0"/>
+<circle cx="108" cy="200" r="6.0"/>
+<circle cx="108" cy="260" r="6.0"/>
+<circle cx="2258" cy="200" r="6.0"/>
+<circle cx="2258" cy="260" r="6.0"/>
+<circle cx="558" cy="200" r="6.0"/>
+<circle cx="558" cy="260" r="6.0"/>
+<circle cx="2708" cy="200" r="6.0"/>
+<circle cx="2708" cy="260" r="6.0"/>
+<circle cx="758" cy="200" r="6.0"/>
+<circle cx="758" cy="260" r="6.0"/>
+<circle cx="2908" cy="200" r="6.0"/>
+<circle cx="2908" cy="260" r="6.0"/>
+<circle cx="1658" cy="200" r="6.0"/>
+<circle cx="1658" cy="260" r="6.0"/>
+<circle cx="1208" cy="200" r="6.0"/>
+<circle cx="1208" cy="260" r="6.0"/>
+<circle cx="3358" cy="200" r="6.0"/>
+<circle cx="3358" cy="260" r="6.0"/>
+<circle cx="1958" cy="200" r="6.0"/>
+<circle cx="1958" cy="260" r="6.0"/>
+<circle cx="2108" cy="200" r="6.0"/>
+<circle cx="2108" cy="260" r="6.0"/>
+<circle cx="658" cy="140" r="6.0"/>
+<circle cx="658" cy="260" r="6.0"/>
+<circle cx="2808" cy="140" r="6.0"/>
+<circle cx="2808" cy="260" r="6.0"/>
+<circle cx="1058" cy="140" r="6.0"/>
+<circle cx="1058" cy="260" r="6.0"/>
+<circle cx="3208" cy="140" r="6.0"/>
+<circle cx="3208" cy="260" r="6.0"/>
+<circle cx="858" cy="20" r="6.0"/>
+<circle cx="858" cy="200" r="6.0"/>
+<circle cx="3008" cy="20" r="6.0"/>
+<circle cx="3008" cy="200" r="6.0"/>
+<circle cx="158" cy="20" r="6.0"/>
+<circle cx="158" cy="80" r="6.0"/>
+<circle cx="2308" cy="20" r="6.0"/>
+<circle cx="2308" cy="80" r="6.0"/>
+<circle cx="408" cy="20" r="6.0"/>
+<circle cx="408" cy="80" r="6.0"/>
+<circle cx="2558" cy="20" r="6.0"/>
+<circle cx="2558" cy="80" r="6.0"/>
+<circle cx="608" cy="20" r="6.0"/>
+<circle cx="608" cy="80" r="6.0"/>
+<circle cx="2758" cy="20" r="6.0"/>
+<circle cx="2758" cy="80" r="6.0"/>
+<circle cx="758" cy="20" r="6.0"/>
+<circle cx="758" cy="80" r="6.0"/>
+<circle cx="2908" cy="20" r="6.0"/>
+<circle cx="2908" cy="80" r="6.0"/>
+<circle cx="1208" cy="20" r="6.0"/>
+<circle cx="1208" cy="80" r="6.0"/>
+<circle cx="3358" cy="20" r="6.0"/>
+<circle cx="3358" cy="80" r="6.0"/>
+<circle cx="1608" cy="20" r="6.0"/>
+<circle cx="1608" cy="80" r="6.0"/>
+<circle cx="1658" cy="20" r="6.0"/>
+<circle cx="1658" cy="80" r="6.0"/>
+<circle cx="1708" cy="20" r="6.0"/>
+<circle cx="1708" cy="80" r="6.0"/>
+<circle cx="1758" cy="20" r="6.0"/>
+<circle cx="1758" cy="80" r="6.0"/>
+<circle cx="758" cy="20" r="6.0"/>
+<circle cx="758" cy="80" r="6.0"/>
+<circle cx="2908" cy="20" r="6.0"/>
+<circle cx="2908" cy="80" r="6.0"/>
+<circle cx="2008" cy="20" r="6.0"/>
+<circle cx="2008" cy="80" r="6.0"/>
+<circle cx="1108" cy="80" r="6.0"/>
+<circle cx="1108" cy="260" r="6.0"/>
+<circle cx="3258" cy="80" r="6.0"/>
+<circle cx="3258" cy="260" r="6.0"/>
+<circle cx="158" cy="140" r="6.0"/>
+<circle cx="158" cy="200" r="6.0"/>
+<circle cx="2308" cy="140" r="6.0"/>
+<circle cx="2308" cy="200" r="6.0"/>
+<circle cx="608" cy="140" r="6.0"/>
+<circle cx="608" cy="200" r="6.0"/>
+<circle cx="2758" cy="140" r="6.0"/>
+<circle cx="2758" cy="200" r="6.0"/>
+<circle cx="1608" cy="140" r="6.0"/>
+<circle cx="1608" cy="200" r="6.0"/>
+<circle cx="1708" cy="140" r="6.0"/>
+<circle cx="1708" cy="200" r="6.0"/>
+<circle cx="1808" cy="140" r="6.0"/>
+<circle cx="1808" cy="200" r="6.0"/>
+<circle cx="1508" cy="80" r="6.0"/>
+<circle cx="1508" cy="200" r="6.0"/>
+<circle cx="1908" cy="80" r="6.0"/>
+<circle cx="1908" cy="200" r="6.0"/>
+</g>
+</g>
+</g>
+</svg>
