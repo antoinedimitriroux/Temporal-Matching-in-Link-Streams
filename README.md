@@ -10,28 +10,13 @@ Calculating a maximum temporal matching is NP-hard, we introduce a way to comput
 
 ### An example of a link-stream
 
-
 ![alt image_chat_local](/simple-link-stream-example.png)
 
-A link-stream L can be                The 2-link-stream resulting               A maximum temporal matching
-represented as a list                   from L with γ = 2
+Here is a more fancy representation of these link-streams
 
-        0 1 0                                   0 1 0                                   0 1 0
-        0 2 0                                   0 2 0                                   
-        0 3 0                                   0 3 0                                   
-        1 2 0                                   1 2 0                                   
-        1 3 0                                   1 3 0                                   
-        2 3 0                                   2 3 0                                   2 3 0                              
-        0 1 1                                   0 1 1                                   
-        0 3 1                                   0 3 1                                   
-        1 2 1                                                                          
-        1 3 1                                   1 3 1
-        2 3 1                                   2 3 1                                   
-        0 1 2                                   
-        0 2 2                                   
-        0 3 2                                   
-        1 3 2                                   
-        2 3 2                        
+![alt image_chat_local](/example_link_stream_image.png)
+
+                     
 
 ### Section 1-b
 
