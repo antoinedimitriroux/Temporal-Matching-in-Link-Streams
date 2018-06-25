@@ -34,10 +34,7 @@ We have two ways to do so:
 -   since the kernel size depends on K, the 2-approximation size, we can compute different 2-approximations, and chose the smallest one.
 -   once we have computed a 2-approximation A, we have to chose (2K-1) γ-edges in γL for each γ-edge in A. Since some γ-edges in A can "share" overlapping γ-edges in γL, we can chose cleverly these (2K-1) γ-edges such that the union of all these (2K-1) is the smallest.
 
-* [Test_1](http://google.com) - Un moteur de recherche
-* [Test_2](https://maven.apache.org/) - Un autre moteur de recherche
-
-* **Antoine Roux** - *Un essai* - [Superzenith](http://superzenith.com)
+**Antoine Roux** - *Rollernet-like-Tools* - [Rollernet-like-Tools](https://antoinedimitriroux.github.io/)
 
 ## Section 2
 
