@@ -2,15 +2,34 @@
 
 ## What is it about?
 
-A link stream is a sequence of pairs of the form (t,{u,v}), where t ∈ N represents a time instant and u ̸= v. Given an integer γ, the γ-edge between vertices u and v, starting at time t, is the set of temporally consecutive edges defined as {(t′, {u, v}) | t′ ∈  t, t + γ − 1 }
+A link-stream is a sequence of pairs of the form (t,{u,v}), where t ∈ N represents a time instant and u ̸= v.
+Given an integer γ and a link-stream L, the γ-link-stream of L is the set of temporally consecutive edges defined as {(t′, {u, v}) | t′ ∈  t, t + γ − 1 }, the sequence of all the γ-edges between vertices u and v, starting at time t.
 
-### Section 1-a
+The maximum temporal matching of a γ-link-stream is a maximum sized subset of its γ-edges, such that there is no pair of y-edges that "overlap".
+Calculating a maximum temporal matching is NP-hard, we introduce a way to compute a 2-approx with a greedy algorithm, and to compute a quadratic kernel in polynomial time.
 
-Du texte du texte du texte
+### An example of a link-stream
 
-```
-Voici un exemple
-```
+A link-stream L can be                The 2-link-stream resulting               A maximum temporal matching
+represented as a list                   from L with γ = 2
+
+        0 1 0                                   0 1 0                                   0 1 0
+        0 2 0                                   0 2 0                                   
+        0 3 0                                   0 3 0                                   
+        1 2 0                                   1 2 0                                   
+        1 3 0                                   1 3 0                                   
+        2 3 0                                   2 3 0                                   2 3 0                              
+        0 1 1                                   0 1 1                                   
+        0 3 1                                   0 3 1                                   
+        1 2 1                                                                          
+        1 3 1                                   1 3 1
+        2 3 1                                   2 3 1                                   
+        0 1 2                                   
+        0 2 2                                   
+        0 3 2                                   
+        1 3 2                                   
+        2 3 2                                   
+
 
 ![alt image_chat_local](/chat.jpeg)
 
