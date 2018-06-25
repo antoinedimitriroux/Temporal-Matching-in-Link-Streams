@@ -17,7 +17,7 @@ Here is a more fancy representation of these link-streams
 ![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
 
 ### The 2-approximation algorithm
-A simple greedy algorithm can compute a 2-approximation for the maximum temporal matching of a γ-link-stream.
+A greedy algorithm can compute a 2-approximation for the maximum temporal matching of a γ-link-stream.
 
 Given a link-stream L with n edges and an integer γ, the γ-link-stream can be computed in O(n^2).
 It is equivalent to sort the edges of L, then for each of them, look if there are (γ-1) consecutive edges after this one.
