@@ -16,7 +16,7 @@ Here is a more fancy representation of these link-streams
 ![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
 
 ### The 2-approximation algorithm
-A greedy algorithm can compute a 2-approximation for the maximum temporal matching of a γ-link-stream.
+A greedy algorithm can compute a 2-approximation of the maximum temporal matching of a γ-link-stream.
 
 Given a link-stream L with n edges and an integer γ, the γ-link-stream can be computed in O(n^2) in the worst case.
 It is equivalent to sort the edges of L depending on t, then for each of them, look if there are (γ-1) consecutive edges after this one. Since the edges of L are sorted depending on t, there is a moment when you can stop looking forward for edges.
@@ -35,46 +35,4 @@ Of course, we would like this kernel to contain the less edges possible.
 We have two ways to do so:
 -   since the kernel size depends on K, the 2-approximation size, we can compute different 2-approximations, and chose the smallest one.
 -   once we have computed a 2-approximation A, we have to chose (2K-1) edges in γL for each γ-edge in A. Since some edges in A can "share" overlapping edges in γL, we can chose cleverly these (2K-1) edges such that the union of all these (2K-1) is the smallest.
-
-
-## Section 2
-
-### Section 2-a
-
-Du texte du texte du texte
-
-### Section 2-b
-
-Du texte du texte du texte
-
-{
-    "plugins": ["scripts"],
-    "pluginsConfig": {
-        "scripts": {
-            "files": [
-                "./index.js"
-            ]
-        }
-    }
-}
-
-### Section 2-c
-
-Du texte du texte du texte
-
-## Section 3
-
-### Section 3-a
-
-Du texte du texte du texte
-
-### Section 3-b
-
-Du texte du texte du texte
-
-### Section 3-c
-
-Du texte du texte du texte
-
-### Installing
 
