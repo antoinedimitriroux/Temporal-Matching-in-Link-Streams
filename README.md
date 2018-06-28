@@ -25,12 +25,11 @@ Then, given a γ-link-stream γL, the 2-approximation can be computed in O(n^2) 
 To do so, we iteratively build a subest of the edges in γL by taking e, any γ-edge in γL, adding it to the 2-approximation edges list, and removing every edges of γL that overlap with e. The loop goes on while γL is not empty.
 
 ### Kernelisation algorithm
-To compute the kernelisation algorithm for the maximum temporal matching of a γ-link-stream γL, we first have to compute A, a 2-approximation of γL.
-We call K the number of the edges in A, and S the result of the kernelisation.
+To compute the kernelisation algorithm for the maximum temporal matching of a γ-link-stream γL, we suppose we already computed A, a 2-approximation of γL. Let K be the number of edges in A, and S the result of the kernelisation.
 
-First, we add A to S. Then, for every edge e in A, we look for at most (2K-1) edges in γL that overlap with e, and add them to S. Finally, S is a quadratic kernel for the maximal temporal matching of γL.
+For every edge e in A, we look for at most (2K-1) edges in γL that overlap with e (including e), and add them to S. We obtain a quadratic kernel for the maximal temporal matching of γL.
 
 Of course, we would like this kernel to contain the least edges possible.
 We have two ways to do so:
--   since the kernel size depends on K, the 2-approximation size, we can compute different 2-approximations, and chose the smallest one.
+-   since the kernel size depends on K, the 2-approximation size, we can randomly compute different 2-approximations, and chose the one with the least edges,
 -   once we have computed/chosen a 2-approximation A, we have to chose (2K-1) edges in γL for the K edges in A. Since some edges in A can "share" some overlapping edges in γL, we can chose cleverly these (2K-1) * K edges such that the union of all these is as small as possible.
