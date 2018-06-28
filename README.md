@@ -6,9 +6,9 @@ A link-stream is a sequence of pairs of the form (t,{u,v}), where t ∈ N repres
 Given an integer γ and a link-stream L, the γ-link-stream of L is the set of temporally consecutive edges defined as {(t′, {u, v}) | t′ ∈  t, t + γ − 1 }, the sequence of all the edges between vertices u and v, starting at time t.
 
 The maximum temporal matching of a γ-link-stream is a maximum sized subset of its edges, such that there is no pair of edges that "overlap".
-Computing a maximum temporal matching is NP-hard, we introduce a way to compute a 2-approximation with a greedy algorithm, and to compute a quadratic kernel in polynomial time.
+Computing a maximum temporal matching is NP-hard, we introduce a way to compute a 2-approximation with a greedy algorithm, and a quadratic kernel in polynomial time.
 
-We developped a javascript application to generate different link-streams based on the [rollernet](http://www-rp.lip6.fr/rollernet/en/experience/experience.html) experiment, and to calculate the 2-approximation and the kernel. It is accessible here: [rollernet-like-tools](https://antoinedimitriroux.github.io/), src files are here https://github.com/antoinedimitriroux/temporal-matching-in-link-streams.io.
+We developped a javascript application to generate different link-streams based on the [rollernet](http://www-rp.lip6.fr/rollernet/en/experience/experience.html) experiment, and implemented the 2-approximation and the kernel algorhtms. It is accessible here: [rollernet-like-tools](https://antoinedimitriroux.github.io/), source files can be found here https://github.com/antoinedimitriroux/temporal-matching-in-link-streams.io.
 
 ### An example of a link-stream
 ![alt simple-link-stream-example-txt](/simple-link-stream-example.png)
