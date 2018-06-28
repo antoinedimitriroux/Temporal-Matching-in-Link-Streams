@@ -15,7 +15,7 @@ We developped a javascript application to generate different link-streams based 
 Here is a more fancy representation of these link-streams
 ![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
 
-### The 2-approximation algorithm
+### 2-approximation algorithm
 A greedy algorithm can compute a 2-approximation of the maximum temporal matching of a γ-link-stream.
 
 Given a link-stream L with n edges and an integer γ, the γ-link-stream can be computed in O(n^2) in the worst case.
