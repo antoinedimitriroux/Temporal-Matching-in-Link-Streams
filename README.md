@@ -10,10 +10,16 @@ Computing a maximum temporal matching is NP-hard, we introduce a way to compute 
 
 We developped a javascript application to generate different link-streams based on the [rollernet](http://www-rp.lip6.fr/rollernet/en/experience/experience.html) experiment, and implemented the 2-approximation and the kernel algorhtms. It is accessible here: [rollernet-like-tools](https://antoinedimitriroux.github.io/), source files can be found here https://github.com/antoinedimitriroux/temporal-matching-in-link-streams.io.
 
-### An example of a link-stream
+### Example of a link-stream
 ![alt simple-link-stream-example-txt](/simple-link-stream-example.png)
 Here is a more fancy representation of these link-streams
 ![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
+
+### Practical use case
+
+/!\ 
+Here we should try to explain how it could be interesting to calculate a maximum temporal matching.
+
 
 ### 2-approximation algorithm
 A greedy algorithm can compute a 2-approximation of the maximum temporal matching of a γ-link-stream.
@@ -33,3 +39,18 @@ Of course, we would like this kernel to contain the least edges possible.
 We have two ways to do so:
 -   since the kernel size depends on K, the 2-approximation size, we can randomly compute different 2-approximations, and chose the one with the least edges,
 -   once we have computed/chosen a 2-approximation A, we have to chose (2K-1) edges in γL for the K edges in A. Since some edges in A can "share" some overlapping edges in γL, we can chose cleverly these (2K-1) * K edges such that the union of all these is as small as possible.
+
+### Efficiency of kernelisation
+
+/!\
+Ici, il faut expliquer que la kernelisation peut être:
+- bonne > elle nous retourne un petit sous-ensemble du y-link-stream,
+- "bonne" > elle nous retourne un grand sous-ensemble du link-stream, mais très proche du maximum temporal matching (parfois, elle peut même carrément nous le donner),
+- mauvaise > elle nous retourne un grand sous-ensemble du link-stream, mais qui contient un maximum temporal matching relativement petit.
+
+Et que ça dépend beaucoup du "type" de link stream qu'on traite:
+- complet > facile, on prend un edge
+- disjoint > facile, on prend tous les edges
+- mix ? > c'est là que ça devient très compliqué
+
+
