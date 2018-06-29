@@ -10,15 +10,16 @@ Computing a maximum temporal matching is NP-hard, we introduce a way to compute 
 
 We developped a javascript application to generate different link-streams based on the [rollernet](http://www-rp.lip6.fr/rollernet/en/experience/experience.html) experiment, and implemented the 2-approximation and the kernel algorhtms. It is accessible here: [rollernet-like-tools](https://antoinedimitriroux.github.io/), source files can be found here https://github.com/antoinedimitriroux/temporal-matching-in-link-streams.io.
 
+
+### Practical use case / How it could be useful
+/!\ 
+Here we should explain how it could be interesting to calculate a maximum temporal matching.
+
 ### Example of a link-stream
 ![alt simple-link-stream-example-txt](/simple-link-stream-example.png)
 Here is a more fancy representation of these link-streams
 ![alt simple-link-stream-example-img](/simple-link-stream-horizontal-image.png)
 
-### Practical use case
-
-/!\ 
-Here we should try to explain how it could be interesting to calculate a maximum temporal matching.
 
 
 ### 2-approximation algorithm
