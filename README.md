@@ -40,18 +40,3 @@ Of course, we would like this kernel to contain the least edges possible.
 We have two ways to do so:
 -   since the kernel size depends on K, the 2-approximation size, we can randomly compute different 2-approximations, and chose the one with the least edges,
 -   once we have computed/chosen a 2-approximation A, we have to chose (2K-1) edges in γL for the K edges in A. Since some edges in A can "share" some overlapping edges in γL, we can chose cleverly these (2K-1) * K edges such that the union of all these is as small as possible.
-
-### Efficiency of kernelisation
-
-/!\
-Ici, il faut expliquer que la kernelisation peut être:
-- bonne > elle nous retourne un petit sous-ensemble du y-link-stream,
-- "bonne" > elle nous retourne un grand sous-ensemble du link-stream, mais très proche du maximum temporal matching (parfois, elle peut même carrément nous le donner),
-- mauvaise > elle nous retourne un grand sous-ensemble du link-stream, mais qui contient un maximum temporal matching relativement petit.
-
-Et que ça dépend beaucoup du "type" de link stream qu'on traite:
-- complet > facile, on prend un edge
-- disjoint > facile, on prend tous les edges
-- mix ? > c'est là que ça devient très compliqué
-
-
